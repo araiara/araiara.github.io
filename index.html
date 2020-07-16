@@ -24,8 +24,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Arsana Rai</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://avatars3.githubusercontent.com/u/61372474?s=400&u=c97a95f69558e5605933bf0e28218ac08c957b6c&v=4" alt="My image" /></span>
+                <span class="d-block d-lg-none" id="myName"></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="myImage" alt="Arsana Rai Profile" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,7 +55,7 @@
                     <p class="lead mb-5">Senior year computing student at Itahari International College, seeking to learn, and enhance programming skills as a developer in the field of Artificial Intelligence.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/arsana-rai/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/araiara"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" id="myGithubLink"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="https://www.instagram.com/_arsanayyy"><i class="fab fa-instagram"></i></a>
                         <a class="social-icon" href="https://www.facebook.com/arsanayyy"><i class="fab fa-facebook-f"></i></a>
                         <a class="social-icon" href="mailto:arsanaraio.o@gmail.com"><i class="fa fa-envelope"></i></a>
@@ -240,6 +240,25 @@
                             </div>
                         </li>
                     </ul>
+
+                    <h2 class="mb-5">Projects on Github</h2>
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>URL</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <tr>
+                                <td>..</td>
+                                <td>..</td>
+                                <td>..</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </section>
             <hr class="m-0" />
@@ -287,5 +306,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
